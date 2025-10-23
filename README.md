@@ -1,2 +1,2 @@
 # CodeJam_Resources
-Hacker resources, workshop slides, important docs
+Hacker resources, workshop slides, and important docs coming soon
