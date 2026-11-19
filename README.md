@@ -19,6 +19,28 @@ team, check-in and your judging slot are on the [CodeJam dashboard](https://code
 
 Look after yourself all weekend: [Stay well](guides/06-stay-well.md).
 
+### How to read these guides
+
+Each guide opens with a short story, then gives you the checklist. The story follows one made-up team through the
+whole weekend: Maya, Tariq, Chloé and Wen, four students at their first hackathon, building **LastBus**, an app that
+texts you when it's time to leave so you don't miss the last bus home. They aren't real and neither is their project,
+but every mistake they make is one a real team has made. If you're short on time, skip the story and use the tables.
+
+The weekend in one paragraph: on Friday you check in, hear the challenges at the opening, and by the end of the
+evening your team has one sentence that says what you're building. On Saturday you make one thing work from start to
+finish, then stop adding and start polishing. On Sunday morning you check in for judging, push your code by noon, and
+in the afternoon you get seven minutes with a panel of judges. Everything else in this repo is there to make one of
+those moments easier.
+
+### Go further
+
+Three extra pages for when you want more than the steps:
+
+- [Go faster](extras/go-faster.md): ready-made parts, so you spend the weekend on your idea and not on a login form.
+- [Find an idea](extras/find-ideas.md): prompts, local data and places to look when the team is staring at a blank
+  page.
+- [Stay curious](extras/stay-curious.md): short reads and videos that explain how the things you're using work.
+
 Copy-paste templates: [7-minute pitch](templates/pitch-7-minutes.md) · [Team plan](templates/team-plan.md).
 Your project repo starts from the [CodeJam 16 project template](https://github.com/mcgillcodejam/codejam16-template).
 

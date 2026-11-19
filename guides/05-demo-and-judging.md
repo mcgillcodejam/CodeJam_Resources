@@ -1,7 +1,28 @@
 # 5. Demo and judging
 
 Judging is Sunday from 13:00 to 15:30 on the 4th and 5th floors of Trottier. Your slot and room are on your
-dashboard (Events) once the schedule is published.
+CodeJam dashboard once the schedule is published.
+
+## Follow a team: Sunday, seven minutes
+
+The team's slot is mid-afternoon. They are outside the room five minutes early with the laptop charged, notifications
+off and the backup video open in a tab.
+
+Maya starts with a person, not with the technology: "Last month Wen missed the last bus twice. Each time it cost her
+a taxi." Thirty seconds in, the judges know what the problem is and who has it. Then one sentence on what LastBus
+does, and Wen starts the demo.
+
+At minute three Maya does the part they rehearsed most. She holds out her phone and says, "Type in your own number."
+A judge does, and a few seconds later his phone buzzes: time to leave. He laughs. That is the moment the panel will
+remember when they compare notes, and it took the team no extra code, only the nerve to hand the demo over.
+
+Then the wifi drops and the second demo step hangs. Tariq doesn't apologise for a minute. He says, "The network just
+dropped; here's the same step recorded this morning," plays twenty seconds of the video, and carries on. They finish
+at 4:50.
+
+In the questions a judge asks what happens when a bus is late. They didn't build that. Wen says so: "We use the
+schedule, not live positions. The STM publishes live data too, and that's the first thing we'd add." It is an honest
+answer, and it shows they know where the edge of their project is.
 
 ## How it works
 

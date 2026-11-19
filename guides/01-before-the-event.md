@@ -2,6 +2,20 @@
 
 Thirty minutes this week saves you two hours on Friday night.
 
+## Follow a team: the Wednesday before
+
+Maya, Tariq, Chloé and Wen have never been to a hackathon. (They're made up; see the [README](../README.md).) On
+Wednesday they get on a 15-minute call. Nobody has an idea yet, and that's fine. What they find out instead is more
+useful: Tariq has built a small website before, Wen knows Python from a stats course, Chloé likes design, and Maya has
+never used Git but is happy to talk in front of people.
+
+Then they try the boring part. Wen clones a starter and it runs. Maya's laptop has no Git and no Node, and installing
+them takes forty minutes on residence wifi. If she had found that out at 19:30 on Friday, the team would have lost
+its first evening to an installer. That is the whole point of this page: find the slow, dull problems now, while
+nothing is at stake.
+
+One thing they don't do is write project code. Everything you submit is built after hacking starts.
+
 ## Accounts
 
 - [ ] **GitHub account** for every team member, and your GitHub username in your CodeJam dashboard profile.
