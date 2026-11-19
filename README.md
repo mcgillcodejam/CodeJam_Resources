@@ -1,120 +1,105 @@
-# 🏖 CodeJam Resources
+# CodeJam Resources
 
-This document contains a bunch of resources for CodeJam. Feel free to look through and get yourself adjusted to the content before the hackathon.
+Everything you need to go from "we have a team" to a demo the judges remember, in a few short pages.
+Made by the CodeJam committee at McGill. Read the guide for the step you're on; skip the rest.
 
-## 👶 Basics
+**CodeJam 16** · November 20 to 22, 2026 · Lorne M. Trottier Building, McGill University. The live schedule, your
+team, check-in and your judging slot are on the [CodeJam dashboard](https://codejam.mcgilleus.ca/dashboard).
 
-If this is your first time at a hackathon or coding past ECSE 202 or COMP 202, it's probably best that you learn some concepts that'll help ramp you up before!
+## The weekend in six steps
 
-- [Learn Git Branching](https://learngitbranching.js.org/) - Interactive tutorial to learn Git, the most popular version control system for collaborative programming.
-- [What's an API?](https://medium.freecodecamp.org/what-is-an-api-in-english-please-b880a3214a82) - Learn how to use external services in your projects.
-- [A Beginner’s Guide to HTTP and REST](https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340) - A more in-depth guide on how to use REST APIs.
-- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) - An in-depth series of tutorials to learn how to code in Python. If you don't know what language to use, Python is a good start!
-- [Roadmap to Fullstack Web Development](https://roadmap.sh/full-stack) - Web projects are some of the easiest to make during a hackathon. Learn more about different technologies that are commonly used!
-- [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/ml-intro) - If you want to ramp up quick on machine learning.
-- [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic) - A beginner-friendly prediction competition.
+| Step | When | Read |
+| --- | --- | --- |
+| 1. Get ready | Before Friday | [Before the event](guides/01-before-the-event.md) |
+| 2. Pick a problem | Friday evening, first hour | [Pick a problem](guides/02-pick-a-problem.md) |
+| 3. Build | Friday 19:00 to Sunday 12:00 | [Build fast](guides/03-build-fast.md) |
+| 4. Submit | By Sunday 12:00, code freeze | [Ship and submit](guides/04-ship-and-submit.md) |
+| 5. Demo | Sunday 13:00 to 15:30 | [Demo and judging](guides/05-demo-and-judging.md) |
+| 6. After | Sunday night onward | [After CodeJam](guides/07-after-codejam.md) |
 
-## 🛠 Recommended Software
+Look after yourself all weekend: [Stay well](guides/06-stay-well.md).
 
-These are some recommended tools for general hackathon success:
+Copy-paste templates: [7-minute pitch](templates/pitch-7-minutes.md) · [Team plan](templates/team-plan.md).
+Your project repo starts from the [CodeJam 16 project template](https://github.com/mcgillcodejam/codejam16-template).
 
-- [Visual Studio Code](https://code.visualstudio.com/) - Your favorite programmer's favorite text editor.
-- [GitHub Desktop](https://desktop.github.com/) - Easy-to-use Git GUI interface so you don't need to use the command line.
-- [Jupyter Notebooks](http://jupyter.org/install) - Powerful Python tool hosted as a web app useful for writing and organizing Machine Learning code. Very visually appealing and great for running code snippets.
-- [Postman](https://www.getpostman.com/) - REST API testing tool.
+## First hackathon? Start here
 
-## 🏎 Boilerplates
+- [Learn Git Branching](https://learngitbranching.js.org/): Git by playing, in your browser. Do the first two levels.
+- [GitHub Skills](https://skills.github.com/): short hands-on courses (first repo, pull requests, Pages).
+- [MDN: Learn web development](https://developer.mozilla.org/en-US/docs/Learn_web_development): HTML, CSS and
+  JavaScript from zero.
+- [roadmap.sh](https://roadmap.sh/): what to learn next for frontend, backend, AI and more.
+- [What is an API?](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82): plain-English
+  introduction.
+- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/): Python from zero, free online.
+- [Hugging Face Learn](https://huggingface.co/learn): free courses on language models, agents and machine learning.
 
-Boilerplate code is your best friend for a hackathon! As these are time-limited events, you don't want to spend half your time setting up your project.
+## Tools
 
-Here are a few examples:
+- [Visual Studio Code](https://code.visualstudio.com/) and [GitHub Desktop](https://desktop.github.com/) if the
+  command line is new to you.
+- [GitHub Student Developer Pack](https://education.github.com/pack): free credits and tools, including GitHub
+  Copilot. Sign up before the weekend; approval can take days.
+- [Figma](https://www.figma.com/education/) (free for students) or [Excalidraw](https://excalidraw.com/) to sketch
+  screens before you code them.
+- [Bruno](https://www.usebruno.com/) or [Postman](https://www.postman.com/) to try an API before writing code for it.
+- AI coding assistants (GitHub Copilot, Claude Code, Cursor and others) are fine to use. Be able to explain every
+  line you demo, and say in your README which tools you used. See [Build fast](guides/03-build-fast.md).
 
-- [Mega Boilerplate](https://github.com/sahat/megaboilerplate)
-- [Hackathon Starter](https://github.com/sahat/hackathon-starter)
-- [React Boilerplate](https://github.com/react-boilerplate/react-boilerplate)
+## Starters
 
-If these don't suit your usecase, feel free to look up other boilerplates online!
+Start from a generator, not a giant boilerplate. Each one gives you a running app in a minute.
 
-## 📚 Useful Libraries and Frameworks
+| You want | Start with |
+| --- | --- |
+| A web app (React) | [Vite](https://vite.dev/guide/): `npm create vite@latest` |
+| A web app with a server and pages | [Next.js](https://nextjs.org/docs/app/getting-started/installation): `npx create-next-app@latest` |
+| A Python API | [FastAPI](https://fastapi.tiangolo.com/tutorial/first-steps/) or [Flask](https://flask.palletsprojects.com/en/stable/quickstart/) |
+| A data or AI demo with a UI, all in Python | [Streamlit](https://docs.streamlit.io/get-started) or [Gradio](https://www.gradio.app/guides/quickstart) |
+| A mobile app | [Expo](https://docs.expo.dev/get-started/create-a-project/) (React Native) |
+| A game | [Godot](https://godotengine.org/) or [Pygame](https://www.pygame.org/docs/) |
+| A database and login without writing a backend | [Supabase](https://supabase.com/docs) or [Firebase](https://firebase.google.com/docs) |
 
-Here are a few libraries that might prove to be useful during the competition! If the official library isn't written in your favorite language, try finding wrappers/bindings for it online!
+## APIs
 
-- [brain.js](https://github.com/BrainJS/brain.js)
-- [CoreNLP](https://github.com/stanfordnlp/CoreNLP)
-- [Keras](https://keras.io/)
-- [Leaflet](http://leafletjs.com/)
-- [Natural for node.js](https://github.com/NaturalNode/natural)
-- [NLTK](http://www.nltk.org/)
-- [Numpy](http://www.numpy.org/)
-- [Octave](https://www.gnu.org/software/octave/)
-- [OpenCV](https://pypi.org/project/opencv-python/)
-- [PyTorch](https://pytorch.org/)
-- [scikit-learn](http://scikit-learn.org/stable/)
-- [Tensorflow](https://www.tensorflow.org/tutorials/)
-- [Tensorflow JS](https://js.tensorflow.org/)
-- [TextBlob](http://textblob.readthedocs.org/)
-- [tracking.js](https://trackingjs.com/)
+- **Language models:** [Anthropic (Claude)](https://docs.claude.com/), [OpenAI](https://platform.openai.com/docs),
+  [Google Gemini](https://ai.google.dev/), or open models through
+  [Hugging Face](https://huggingface.co/docs/inference-providers). Most give free credits to start; set a spending
+  limit before you share a key with your team.
+- **Maps:** [Leaflet](https://leafletjs.com/) with [OpenStreetMap](https://www.openstreetmap.org/) (free),
+  [Mapbox](https://docs.mapbox.com/).
+- **Speech and vision:** [Whisper](https://github.com/openai/whisper) (open speech-to-text model),
+  [Google Cloud Vision](https://cloud.google.com/vision), models on [Hugging Face](https://huggingface.co/models).
+- **Everything else:** [public-apis](https://github.com/public-apis/public-apis), a long list of free APIs by topic.
 
-## 🔌 Useful Plug and Play APIs
+## Data
 
-Here are a few APIs that might prove to be useful during the competition! These are a software engineer's best friend. These will do the heavy lifting for you, so you can focus on working on your product.
+- [Montréal open data](https://donnees.montreal.ca/), [Données Québec](https://www.donneesquebec.ca/) and
+  [Open Government Canada](https://open.canada.ca/en/open-data): local data judges will recognise.
+- [STM developers](https://www.stm.info/en/about/developers): Montréal transit schedules and real-time data.
+- [Kaggle Datasets](https://www.kaggle.com/datasets) and [Hugging Face Datasets](https://huggingface.co/datasets).
+- [Google Dataset Search](https://datasetsearch.research.google.com/) when you can't find it anywhere else.
 
-- [ArcGIS for Developers](https://developers.arcgis.com/)
-- [AWS Transcribe](https://aws.amazon.com/transcribe/?hp=tile&so-exp=below)
-- [Clarifai](https://www.clarifai.com/pricing)
-- [Google Cloud Vision](https://cloud.google.com/vision/)
-- [IBM Watson Speech to Text](https://www.ibm.com/products/speech-to-text)
-- [IBM Watson Text to Speech](https://www.ibm.com/products/text-to-speech)
-- [Microsoft Azure AI Services](https://azure.microsoft.com/en-ca/services/cognitive-services/)
-- [Microsoft LUIS](https://www.luis.ai/)
+## Hosting
 
-## 🔢 Data Set Resources
+You can demo from your laptop. A live link is a bonus, not a requirement.
 
-Without data, how are you going to recognize patterns? Here are some resources you can use to quickly find data sets!
+| What you built | Free option |
+| --- | --- |
+| Static site (HTML, CSS, JS, a Vite build) | [GitHub Pages](https://pages.github.com/), [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/), [Cloudflare Pages](https://pages.cloudflare.com/) |
+| Server or API (Node, Python) | [Render](https://render.com/), [Railway](https://railway.com/), [Fly.io](https://fly.io/) |
+| AI or data demo | [Hugging Face Spaces](https://huggingface.co/spaces), [Streamlit Community Cloud](https://streamlit.io/cloud) |
 
-- [Amazon Q&A Dataset](https://cseweb.ucsd.edu/~jmcauley/datasets.html#amazon_qa)
-- [Australian Government Data](https://data.gov.au/dataset)
-- [Cat Images Dataset (purrrfect)](http://web.archive.org/web/20150520175645/http:/137.189.35.203/WebUI/CatDatabase/catData.html)
-- [Flickr Thematic Image Datasets](http://people.csail.mit.edu/celiu/CVPR2010/FMD/index.html)
-- [Geographic Datasets](http://freegisdata.rtwilson.com/)
-- [Google Data Set Search](https://toolbox.google.com/datasetsearch)
-- [Home Depot Search Queries Dataset](https://www.kaggle.com/c/home-depot-product-search-relevance/data)
-- [IMDB Dataset](http://ai.stanford.edu/~amaas/data/sentiment/)
-- [Microsoft Building Footprint Data](https://wiki.openstreetmap.org/wiki/Microsoft_Building_Footprint_Data)
-- [Microsoft GPS Trajectories Dataset](https://www.microsoft.com/en-us/download/details.aspx?id=52367&from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fdownloads%2Fb16d359d-d164-469e-9fd4-daa38f2b2e13%2F)
-- [Microsoft T-Drive Dataset: Taxi One-Week Trajectories](https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/)
-- [Open NYC Data](https://opendata.cityofnewyork.us/)
-- [Reddit Comments DataSet](https://github.com/linanqiu/reddit-dataset)
-- [Stanford House Numbers Dataset](http://ufldl.stanford.edu/housenumbers/)
-- [Wikipedia Toxic Comment Classification Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge)
-- [Yelp Dataset (businesses, reviews, and user data)](https://www.yelp.com/dataset)
+## Workshops
 
-Looking for something not listed? Try searching Kaggle:
-- [Kaggle Datasets](https://www.kaggle.com/datasets)
-  
-If you want to avoid training your own models, you can also find pretrained models online!
+Slides and code from past CodeJam workshops are in [`Workshops/`](Workshops/): Intro to Web Dev, Intro to
+Frontend, Intro to Backend.
 
-- [Gradio](https://www.gradio.app/)
-- [Hugging Face](https://huggingface.co/models)
-- [Model Zoo](https://modelzoo.co/)
+## Contributing
 
-## ☁️ Cloud Computing
+Found a dead link or know something better? Open a pull request or tell an organizer. Keep it short: one line per
+link, and say why it helps at a hackathon.
 
-Cloud computing is especially useful when you need to do heavy computations (read: Machine Learning). There are a few providers. If this is your first time using them, they usually provide a bunch of free credits for students.
-
-- [Amazon Web Services](https://aws.amazon.com/machine-learning/)
-- [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb)
-- [Google Cloud Platform](https://cloud.google.com/products/ai/)
-- [IBM Watson](https://www.ibm.com/watson)
-- [Microsoft Azure](https://azure.microsoft.com/en-ca/overview/machine-learning/)
-
-## 🏡 Hosting your application
-
-It's not a requirement to host your final submission anywhere (you can demo your project locally), but you can easily host your project on the cloud so you can show it off to anyone with a link.
-
-- [Netlify](https://www.netlify.com/)
-- [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/)
-- [Heroku](https://www.heroku.com/)
-
-## 👩‍🏫 Workshop content
-The content from the Intro to Web Dev workshop is now online. Check out the `/workshops/` folder in this repository for more details.
+The six-step structure is inspired by the MIT-licensed
+[Hackathon Starter Pack](https://github.com/udaysharmadev/Hackathon-Starter-Pack-Complete-Guide-Roadmap) by Uday
+Sharma.
